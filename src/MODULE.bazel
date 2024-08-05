@@ -1,0 +1,3 @@
+module(name = "michaelsafyan_github_io", version="0.0.1")
+
+bazel_dep(name = "rules_pkg", version = "0.10.1")

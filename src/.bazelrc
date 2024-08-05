@@ -1,0 +1,3 @@
+# Ensures the use of bzlmod for module management.
+# See: https://bazel.build/external/migration
+common --enable_bzlmod
