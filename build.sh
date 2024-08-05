@@ -27,8 +27,8 @@ function Build() {
 
     local build_artifact=$(find "${output_dir}" -name 'website_tarball.tar')
     if [ -f "${build_artifact}" ] ; then
-      cp "${build_artifact}" "./doc/website_tarball.tar"
-      pushd "./doc"
+      cp "${build_artifact}" "./docs/website_tarball.tar"
+      pushd "./docs"
       tar -xvf "./website_tarball.tar"
       chmod ug+rwx "./website_tarball.tar"
       rm "./website_tarball.tar"
